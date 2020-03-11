@@ -1,0 +1,25 @@
+.nav {
+  height: 32px; }
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none; }
+  .nav__list :first-child {
+    margin-left: 0; }
+  .nav__item {
+    margin-left: 76px; }
+  .nav__link {
+    text-decoration: none;
+    color: white;
+    padding: 8px 24px;
+    line-height: 32px;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
+  .nav__link:hover {
+    color: #9fadc2; }
+  .nav__is-active {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px; }
+
+/*# sourceMappingURL=nav.css.map */
