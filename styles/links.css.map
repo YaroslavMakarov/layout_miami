@@ -1,0 +1,1 @@
+{"version":3,"sources":["links.scss"],"names":[],"mappings":"AAAA;EACE,qBAAqB;EACrB,cAAc;EACd,iBAAiB,EAAA","file":"links.css","sourcesContent":[".links {\r\n  text-decoration: none;\r\n  color: #0075ff;\r\n  font-weight: bold;\r\n}\r\n"]}

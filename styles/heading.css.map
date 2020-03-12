@@ -1,0 +1,1 @@
+{"version":3,"sources":["heading.scss"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,sBAAsB,EAAA","file":"heading.css","sourcesContent":[".heading {\r\n  width: 328px;\r\n  font-size: 48px;\r\n  line-height: 48px;\r\n  letter-spacing: -1.5px;\r\n}\r\n"]}

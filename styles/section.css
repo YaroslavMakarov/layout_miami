@@ -1,0 +1,10 @@
+.section {
+  position: relative;
+  padding: 100px calc(50% - 510px) 100px 120px;
+  color: black; }
+
+@media screen and (max-width: 1030px) {
+  .section {
+    padding: 50px calc(50% - 510px) 50px 20px; } }
+
+/*# sourceMappingURL=section.css.map */

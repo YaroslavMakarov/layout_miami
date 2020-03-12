@@ -1,0 +1,96 @@
+.gallery__heading {
+  display: inline;
+  padding: 0 calc(50% - 71px) 23px;
+  position: relative; }
+
+.gallery__heading:after {
+  content: "";
+  position: absolute;
+  background-image: url("../images/crown.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  width: 23px;
+  height: 16px;
+  bottom: 0;
+  left: calc(50% - 11px); }
+
+.gallery__photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px; }
+
+.gallery__image {
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.gallery__image1 {
+  width: 673px;
+  height: 256px;
+  background-image: url("../images/photos/1.jpg");
+  -webkit-box-flex: 2;
+      -ms-flex: 2 2 auto;
+          flex: 2 2 auto;
+  margin-right: 20px; }
+
+.gallery__image2 {
+  width: 327px;
+  height: 256px;
+  background-image: url("../images/photos/2.jpg");
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto; }
+
+.gallery__image3 {
+  width: 500px;
+  height: 256px;
+  background-image: url("../images/photos/3.jpg");
+  margin-right: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+
+.gallery__image4 {
+  width: 500px;
+  height: 256px;
+  background-image: url("../images/photos/4.jpg");
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+
+.gallery__image5 {
+  width: 327px;
+  height: 256px;
+  background-image: url("../images/photos/5.jpg");
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin-right: 20px; }
+
+.gallery__image6 {
+  width: 673px;
+  height: 256px;
+  background-image: url("../images/photos/6.jpg");
+  -webkit-box-flex: 2;
+      -ms-flex: 2 2 auto;
+          flex: 2 2 auto; }
+
+.gallery__address {
+  font-size: 16px;
+  line-height: 27px;
+  color: #3e3e3e; }
+
+.gallery__button {
+  font-size: 16px;
+  line-height: 14px;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 94px); }
+
+/*# sourceMappingURL=gallery.css.map */

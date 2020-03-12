@@ -1,1 +1,1 @@
-{"version":3,"sources":["reset.scss"],"names":[],"mappings":"AAAA;;;;;;;EAOE,SAAS;EACT,UAAU,EAAA","file":"reset.css","sourcesContent":["html,\nbody,\nul,\nli,\nbutton,\ninput,\ntextarea {\n  margin: 0;\n  padding: 0;\n}\n"]}
+{"version":3,"sources":["reset.scss"],"names":[],"mappings":"AAAA;;;;;;;;;;EAUE,SAAS;EACT,UAAU,EAAA;;AAGZ;EACE,gBAAgB,EAAA","file":"reset.css","sourcesContent":["html,\r\nbody,\r\nul,\r\nli,\r\nbutton,\r\ninput,\r\ntextarea,\r\na,\r\nh1,\r\nh2 {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nstrong {\r\n  font-weight: 500;\r\n}\r\n"]}

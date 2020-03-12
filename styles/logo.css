@@ -5,4 +5,9 @@
   background-size: contain;
   background-repeat: no-repeat; }
 
+@media screen and (max-width: 1030px) {
+  .logo {
+    width: 73px;
+    height: 48px; } }
+
 /*# sourceMappingURL=logo.css.map */
