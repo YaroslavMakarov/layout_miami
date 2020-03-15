@@ -8,91 +8,9 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   z-index: 1; }
-  .header__phone {
-    position: absolute;
-    top: 56px;
-    left: 0;
-    margin-left: 120px; }
-  .header__logo {
-    position: absolute;
-    top: 24px;
-    left: calc(50% - 57.5px);
-    margin-right: 120px; }
-  .header__call {
-    position: absolute;
-    top: 56px;
-    right: 0;
-    margin-right: 120px; }
-  .header__label-phone {
-    position: absolute;
-    display: none; }
-  .header__phone-button {
-    display: none; }
-  .header__call-link {
-    text-decoration: none;
-    color: white;
-    padding: 8px 0;
-    border-bottom: 1px solid #fff;
-    line-height: 24px;
-    -webkit-transition: color 0.3s;
-    transition: color 0.3s; }
-  .header__call-link:hover {
-    color: #9fadc2; }
-  .header__label-menu-button {
-    display: none;
-    position: absolute;
-    z-index: 3; }
-  .header__title {
-    font-size: 60px;
-    line-height: 60px;
-    font-weight: bold;
-    text-transform: none;
-    position: absolute;
-    top: 398px;
-    left: 0;
-    margin-left: 120px;
-    padding-top: 16px; }
-  .header__title:before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 35px;
-    height: 2px;
-    background-color: white;
-    border-radius: 2px;
-    top: 0; }
-  .header__nav {
-    position: absolute;
-    bottom: 48px;
-    left: 0;
-    margin-left: 120px; }
 
 @media screen and (max-width: 1030px) {
-  .header__phone {
-    display: none; }
-  .header__label-phone {
-    display: inline-block;
-    top: 39px;
-    left: 0;
-    margin-left: 23px; }
-  .header__call {
-    display: none; }
-  .header__logo {
-    z-index: 3; }
-  .header__label-menu-button {
-    display: inline-block;
-    top: 42px;
-    right: 0;
-    margin-right: 23px; }
-  .header__title {
-    top: unset;
-    left: 0;
-    bottom: 80px;
-    margin-left: 20px; }
-  .header__nav {
-    bottom: unset;
-    top: 120px;
-    left: 0;
-    margin-left: 21px; } }
+  .header {
+    height: 568px; } }
 
 /*# sourceMappingURL=header.css.map */

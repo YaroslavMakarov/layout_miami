@@ -1,0 +1,25 @@
+.testimonial__heading {
+  padding: 0 calc(50% - 132.5px) 23px; }
+
+.testimonial__persons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 75px; }
+
+@media screen and (max-width: 1030px) {
+  .testimonial__heading {
+    padding: 0 calc(50% - 96.5px) 23px; }
+  .testimonial__persons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
+
+/*# sourceMappingURL=testimonials.css.map */

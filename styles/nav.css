@@ -1,14 +1,75 @@
 .nav {
-  height: 32px; }
+  position: relative; }
   .nav__hidden-menu {
     position: absolute;
-    width: 100vw;
-    height: 700px;
+    width: 100%;
+    height: 568px;
     z-index: 2;
     background-color: blue;
     display: none; }
+  .nav__label-menu-button:after {
+    content: url("../images/menu-button.png");
+    height: 12px;
+    width: 18px; }
+  .nav__phone {
+    position: absolute;
+    top: 56px;
+    left: 0;
+    margin-left: 120px; }
+  .nav__label-phone {
+    position: absolute;
+    display: none; }
+  .nav__phone-button {
+    display: none; }
+  .nav__logo {
+    position: absolute;
+    top: 24px;
+    left: calc(50% - 57.5px);
+    margin-right: 120px; }
+  .nav__call {
+    position: absolute;
+    top: 56px;
+    right: 0;
+    margin-right: 120px; }
+  .nav__call-link {
+    text-decoration: none;
+    color: white;
+    padding: 8px 0;
+    border-bottom: 1px solid #fff;
+    line-height: 24px;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
+  .nav__call-link:hover {
+    color: #9fadc2; }
+  .nav__label-menu-button {
+    display: none;
+    position: absolute;
+    z-index: 3; }
+  .nav__title {
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -1.5px;
+    font-weight: bold;
+    text-transform: none;
+    position: absolute;
+    top: 398px;
+    left: 0;
+    margin-left: 120px;
+    padding-top: 16px; }
+  .nav__title:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    border-radius: 2px;
+    top: 0; }
   .nav__list {
-    position: relative;
+    position: absolute;
+    left: 0;
+    top: 620px;
+    margin-left: 120px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -37,16 +98,44 @@
     display: none; }
 
 @media screen and (max-width: 1030px) {
+  .nav__phone {
+    display: none; }
+  .nav__label-phone {
+    display: inline-block;
+    top: 39px;
+    left: 0;
+    margin-left: 23px; }
+  .nav__call {
+    display: none; }
+  .nav__logo {
+    z-index: 3;
+    left: calc(50% - 38.5px); }
+  .nav__label-menu-button {
+    display: inline-block;
+    top: 42px;
+    right: 0;
+    margin-right: 23px; }
+  .nav__title {
+    left: 0;
+    top: 407px;
+    margin-left: 20px;
+    font-size: 46px;
+    line-height: 40px;
+    letter-spacing: -1px; }
   .nav__list {
     display: none; }
+  .nav__item {
+    margin: 0 0 24px;
+    font-size: 22px; }
   .nav__is-active {
     text-align: unset;
     background: unset; }
   .nav__menu-button:checked + .nav__hidden-menu {
-    display: block;
-    top: -120px;
-    left: -21px; }
+    display: block; }
   .nav__menu-button:checked ~ .nav__list {
+    top: 120px;
+    left: 0;
+    margin-left: 21px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -54,11 +143,25 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-  .nav__item {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin: 0 0 32px; } }
+  .nav__menu-button:checked ~ .nav__phone {
+    top: 460px;
+    left: 0;
+    margin-left: 20px;
+    display: block;
+    z-index: 3;
+    letter-spacing: 2px; }
+  .nav__menu-button:checked ~ .nav__call {
+    top: 492px;
+    left: 0;
+    margin-left: 20px;
+    right: unset;
+    margin-right: 0;
+    display: block;
+    z-index: 3;
+    letter-spacing: 2px; }
+  .nav__menu-button:checked ~ .nav__label-menu-button {
+    content: url("../images/cross.png");
+    width: 16px;
+    height: 16px; } }
 
 /*# sourceMappingURL=nav.css.map */

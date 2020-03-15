@@ -1,0 +1,57 @@
+.contact__heading {
+  padding: 0 calc(50% - 109.5px) 23px; }
+
+.contact__information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 75px; }
+
+.contact__our {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 413px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.contact__phone, .contact__email, .contact__address-heading {
+  font-size: 14px;
+  line-height: 27px;
+  color: #9fadc2;
+  margin: 0; }
+
+.contact__address {
+  width: 152px; }
+
+.contact__email {
+  margin-top: 20px; }
+
+.contact__link, .contact__address-point {
+  font-size: 16px;
+  line-height: 27px;
+  color: #3e3e3e;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0; }
+
+@media screen and (max-width: 1030px) {
+  .contact__heading {
+    padding: 0 calc(50% - 80.5px) 23px; }
+  .contact__information, .contact__our {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 40px; }
+  .contact__address {
+    margin-top: 20px;
+    width: 174px; }
+  .contact__phone, .contact__email, .contact__address-heading {
+    margin-bottom: 10px; } }
+
+/*# sourceMappingURL=contact.css.map */

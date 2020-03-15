@@ -1,0 +1,35 @@
+.person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 240px; }
+  .person__photo {
+    width: 153px;
+    height: 153px;
+    border-radius: 50%; }
+  .person__name {
+    padding-top: 25px; }
+  .person__position {
+    font-size: 14px;
+    line-height: 27px;
+    color: #9fadc2;
+    margin: 4px 0; }
+  .person__text {
+    font-size: 16px;
+    line-height: 27px;
+    color: #3e3e3e;
+    margin: 4px 0;
+    text-align: center; }
+
+@media screen and (max-width: 1030px) {
+  .person {
+    margin-bottom: 30px; } }
+
+/*# sourceMappingURL=person.css.map */

@@ -5,15 +5,16 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+  .info__heading {
+    width: 328px;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1.5px; }
   .info__text {
     width: 503px;
     color: #3e3e3e;
     font-size: 16px;
     line-height: 27px; }
-  .info__text-heading {
-    color: #0075ff;
-    font-size: 24px;
-    line-height: 30px; }
   .info__text--bold-paragraph {
     font-weight: bold; }
 
@@ -22,6 +23,14 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; } }
+            flex-direction: column; }
+    .info__heading {
+      font-size: 36px;
+      line-height: 36px; }
+    .info__text {
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+      margin-top: 30px; } }
 
 /*# sourceMappingURL=info.css.map */
