@@ -38,21 +38,21 @@
     font-size: 14px;
     line-height: 14px;
     color: #b9c1ce; }
-  .input_textarea {
+  .input__textarea {
     resize: none;
     overflow: hidden;
     padding: 15px 0 15px 17px;
     font-family: Roboto, sans-serif;
     height: 144px; }
-  .input_textarea::-webkit-input-placeholder {
+  .input__textarea::-webkit-input-placeholder {
     padding: 0; }
-  .input_textarea::-moz-placeholder {
+  .input__textarea::-moz-placeholder {
     padding: 0; }
-  .input_textarea:-ms-input-placeholder {
+  .input__textarea:-ms-input-placeholder {
     padding: 0; }
-  .input_textarea::-ms-input-placeholder {
+  .input__textarea::-ms-input-placeholder {
     padding: 0; }
-  .input_textarea::placeholder {
+  .input__textarea::placeholder {
     padding: 0; }
 
 /*# sourceMappingURL=input.css.map */

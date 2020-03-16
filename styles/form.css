@@ -8,7 +8,7 @@
           flex-direction: column;
   width: 413px; }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1150px) {
   .form {
     margin-top: 20px;
     width: 280px; } }

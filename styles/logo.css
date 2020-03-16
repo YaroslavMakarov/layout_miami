@@ -5,7 +5,7 @@
   background-size: contain;
   background-repeat: no-repeat; }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1150px) {
   .logo {
     width: 73px;
     height: 48px; } }

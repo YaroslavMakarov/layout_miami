@@ -4,7 +4,6 @@
   line-height: 48px;
   letter-spacing: -1.5px;
   display: inline;
-  padding: 0 calc(50% - 71px) 23px;
   position: relative; }
   .heading:after {
     content: "";
@@ -18,7 +17,7 @@
     bottom: 0;
     left: calc(50% - 11px); }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1150px) {
   .heading {
     font-size: 36px;
     line-height: 36px; } }

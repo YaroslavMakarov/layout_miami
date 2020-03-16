@@ -12,7 +12,7 @@
     left: calc(50% - 57.5px);
     bottom: 40px; }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1150px) {
   .footer {
     height: 320px; }
     .footer__logo {

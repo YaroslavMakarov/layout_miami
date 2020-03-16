@@ -10,7 +10,7 @@
           justify-content: space-between;
   margin-top: 75px; }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1150px) {
   .testimonial__heading {
     padding: 0 calc(50% - 96.5px) 23px; }
   .testimonial__persons {

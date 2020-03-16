@@ -17,7 +17,8 @@
   width: 413px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  margin-right: 20px; }
 
 .contact__phone, .contact__email, .contact__address-heading {
   font-size: 14px;
@@ -39,15 +40,18 @@
   font-weight: normal;
   margin: 0; }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1150px) {
   .contact__heading {
     padding: 0 calc(50% - 80.5px) 23px; }
+  .contact__information {
+    padding: 10px calc(50% - 140px) 23px; }
   .contact__information, .contact__our {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 40px; }
+    margin-top: 40px;
+    width: 280px; }
   .contact__address {
     margin-top: 20px;
     width: 174px; }

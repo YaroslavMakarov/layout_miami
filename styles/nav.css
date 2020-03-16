@@ -78,7 +78,7 @@
   .nav__list :first-child {
     margin-left: 0; }
   .nav__item {
-    margin-left: 76px; }
+    margin-left: 100px; }
   .nav__link {
     text-decoration: none;
     color: white;
@@ -97,7 +97,7 @@
   .nav__menu-button {
     display: none; }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1150px) {
   .nav__phone {
     display: none; }
   .nav__label-phone {

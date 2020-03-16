@@ -9,7 +9,7 @@
   letter-spacing: 2px;
   z-index: 1; }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1150px) {
   .header {
     height: 568px; } }
 

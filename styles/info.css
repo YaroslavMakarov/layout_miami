@@ -6,7 +6,6 @@
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .info__heading {
-    width: 328px;
     font-size: 48px;
     line-height: 48px;
     letter-spacing: -1.5px; }
@@ -18,7 +17,7 @@
   .info__text--bold-paragraph {
     font-weight: bold; }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1150px) {
   .info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
